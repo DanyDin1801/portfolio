@@ -1,0 +1,278 @@
+
+/*HOME SECTION STYLING*/
+
+.home-page { 
+	height: 100vh;
+	width: 100%;
+	border: none;
+	background: no-repeat center center fixed;
+	background-image: url(images/vancouver-skyline.jpg), linear-gradient(rgba(73,92,177,0.5), rgba(0,0,0,0.1)); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.home-text {
+	text-align: center;
+	color: #FFF;
+}
+
+.home-text-top{
+	padding-top: 0.5em;
+	font-size: 8em;
+	font-weight: bold;
+	font-family: 'Doppio One', sans-serif;
+
+}
+
+
+.home-text-bottom{
+	font-size: 3em;
+	margin-left: 3em;
+	margin-right: 3em;
+	font-family: 'Dancing Script', cursive;
+	display: none;
+}
+
+@media(max-width: 700px){
+
+.home-text-top{
+	padding-top: 0.5em;
+	font-size: 6em;
+	font-weight: bold;
+	font-family: 'Doppio One', sans-serif;
+
+}
+
+
+.home-text-bottom{
+	font-size: 2.3em;
+	margin-left: 2.3em;
+	margin-right: 2.3em;
+}	
+}
+
+@media(max-width: 440px){
+
+.home-text-top{
+	padding-top: 130px;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Doppio One', sans-serif;
+
+}
+
+.home-text-top .word3{
+}
+
+.home-text-bottom{
+	font-size: 1.8em;
+	margin-left: 1.8em;
+	margin-right: 1.8em;
+}	
+}
+
+
+/*ABOUT ME SECTION*/
+
+.about-me {
+	height: 100%;
+	width: 100%;
+	border: none;
+	background-color: blue;
+	background-image: url(images/lightblocks.jpg);
+	overflow: auto;
+}
+
+.about-me-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	color: black;
+	background-color: rgba(0,0,0,0);
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.about-me-text-top{
+	width: 50%;
+}
+
+.about-me-text-bottom{
+	right: 0;
+	float: right;
+	width: 50%;
+
+}
+
+@media(max-width: 700px){
+	
+	.about-me-text-top{
+		width: 100%;
+	}
+	.about-me-text-bottom{
+		clear: all;
+		width: 100%;
+	}
+}
+
+@media(max-width: 440px){
+	.about-me-text{
+		font-size: 1em;
+	}
+}
+
+
+
+/*PORTFOLIO SECTION*/
+
+.portfolio {
+	height: 100vh auto;
+	background-color: white;
+	background: no-repeat center center fixed;
+}
+
+.portfolio-title{
+	margin-top: 5vh;
+	font-size: 66px;
+	font-family: 'Doppio One', sans-serif;
+	font-weight: bold;
+}
+
+#myCarousel {
+	margin: 5vh 10vw 10vh 10vw;
+}
+
+.carousel-caption{
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	padding: 10% 10% 19% 10%;
+}
+
+.carousel-caption h1{
+	font-size: 65px !important;
+}
+
+.carousel-caption p{
+	font-size: 21px;
+}
+
+#caption-house{
+	background-color: #2D0303;
+}
+
+#caption-joey{
+	background-color: #000;
+}
+
+#caption-wiki{
+	background-color: #261C86;
+}
+
+#caption-29dig{
+	background-color: #FFF;
+}
+
+
+
+
+
+
+/*ABOUT US SECTION*/
+
+.row{
+	overflow: hidden; 
+}
+
+.col-fun, .col-cre{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.col-sm-4{
+	height: 100%;
+}
+.description{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.about-us-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.creative-text{
+	margin-top: 5%;
+}
+
+.one-in-six{
+	width: 100%;
+}
+
+.col-cre{
+	background-image: url(images/cubicRed.jpg);
+}
+.col-res{
+	background-image: url(images/cubicGreen.jpg);
+}
+.col-fun{
+	background-image: url(images/cubicBlue.jpg);
+}
+
+#myChart{
+	width: 50% !important;
+	height: 50% !important;
+}
+
+
+@media(min-width: 350px) and (max-width: 767px){
+
+#myChart{
+	width: 25% !important;
+	height: 25% !important;
+}
+
+.one-in-six{
+	width: 50% !important;
+}
+
+	.about-us-text{
+		font-size: 20px
+	}
+
+}
+
+@media(max-width: 350px){
+	.about-us-text{
+		font-size: 18px;
+	}
+}
+/*WHITESPACE BETWEEN ABOUTUS AND CONTACT*/
+.whitespace{
+	height: 200px;
+}
+
+
+/*CONTACT PAGE*/
+.btn-send{
+	background-color: #FF4422;
+	color: black !important;
+}
+
+
+
+
+
+
+
+
